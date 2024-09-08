@@ -60,7 +60,7 @@ static const char *flag_description[] = {
 };
 
 void print_help(char *me) {
-    printf("\nfeatherload v%s (L)ittle (L)oad (B)alancer\n\n", VERSION);
+    printf("\nfeatherload v%s \n\n", VERSION);
     printf("Usage: %s [-c conf] [-b backends..] [-l load-balancing]"
            " [-m mode] [-v|-d|-h]\n\n", me);
     const char flags[7] = "hcmblvd";
